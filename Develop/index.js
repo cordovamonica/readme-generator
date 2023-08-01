@@ -56,7 +56,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-
+const writeFile = (data) =>
     fs.writeFile('README.md', data, (err) =>
         err ? console.error(err) : console.log('Success!')
     );
@@ -67,16 +67,16 @@ const init = () => {
 }
 
 // Function call to initialize app
-init()
-    .then(userInput => {
-        return generateMarkdown(userInput);
-    })
-    .then(readme => {
-        return writeFile(readme);
-    }
-    )
-    .catch(err => {
-        console.log(err);
-    }
-    );
+// init()
+//     .then(userInput => {
+//         return generateMarkdown(userInput);
+//     })
+//     .then(readme => {
+//         return writeFile(readme);
+//     }
+//     )
+//     .catch(err => {
+//         console.log(err);
+//     }
+//     );
 
