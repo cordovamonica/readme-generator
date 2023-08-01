@@ -2,7 +2,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-A command line app to turn user input into a readme for your project
+A command line app to create a readme for project
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,7 +13,7 @@ A command line app to turn user input into a readme for your project
 * [Questions](#questions)
 
 ## Installation
-Node.js
+Node.js, inquirer 8.2.4
 
 ## Usage
 n/a
