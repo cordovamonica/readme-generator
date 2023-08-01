@@ -53,6 +53,9 @@ const questions = [
             message: 'Please provide your email address.',
         },
     ])
+    .then((answers) => {
+        const readme = generateMarkdown(answers);
+    })
 ];
 
 // TODO: Create a function to write README file
