@@ -2,7 +2,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-A command line app to create a readme for project
+A command line application that creates a readme based on user input
 
 ## Table of Contents
 * [Installation](#installation)
